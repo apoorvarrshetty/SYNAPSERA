@@ -13,7 +13,7 @@ This repository is the main landing page for the SYNAPSERA project ecosystem. Ea
 | Project | Focus Area | Status | Repository | Live Demo |
 |---|---|---|---|---|
 | EEG Insight | EEG report education | ✅ Live | [Repo](https://github.com/apoorvarrshetty/synapsera-eeg-insight) | [Demo](https://synapsera-eeg-insight.vercel.app) |
-| NeuroAtlas | Interactive neuroanatomy learning | ✅ Built | [Repo](https://github.com/apoorvarrshetty/synapsera-neuroatlas) | Add link after deployment |
+| NeuroAtlas | Interactive neuroanatomy learning | ✅ Built | [Repo](https://github.com/apoorvarrshetty/synapsera-neuroatlas) | [Demo](https://synapsera-neuroatlas.vercel.app) |
 | PatternLab | Memory, focus, and pattern learning | ✅ Live | [Repo](https://github.com/apoorvarrshetty/synapsera-patternlab) | [Demo](https://synapsera-patternlab-92ziy5lpt-apoorva-shetty-s-projects.vercel.app/) |
 | SignalFlow | Signal-processing visualization | ✅ Live | [Repo](https://github.com/apoorvarrshetty/synapsera-signalflow) | [Demo](https://synapsera-signalflow.vercel.app) |
 | ModelMetrics | ML classification metrics | ✅ Live | [Repo](https://github.com/apoorvarrshetty/synapsera-modelmetrics) | [Demo](https://synapsera-modelmetrics.vercel.app) |
