@@ -18,7 +18,6 @@ This repository serves as the central hub for the SYNAPSERA ecosystem. Each appl
 | **PatternLab** | Memory, focus and pattern-learning games | ✅ Live | [GitHub](https://github.com/apoorvarrshetty/synapsera-patternlab) | [Open App](https://synapsera-patternlab-92ziy5lpt-apoorva-shetty-s-projects.vercel.app/) |
 | **SignalFlow** | Interactive signal-processing visualisation | ✅ Live | [GitHub](https://github.com/apoorvarrshetty/synapsera-signalflow) | [Open App](https://synapsera-signalflow.vercel.app) |
 | **ModelMetrics** | Interactive ML classification metrics | ✅ Live | [GitHub](https://github.com/apoorvarrshetty/synapsera-modelmetrics) | [Open App](https://synapsera-modelmetrics.vercel.app) |
-| **NeuroMemory** | Explainable MRI dementia-category classification research prototype | ✅ Live | [GitHub](https://github.com/apoorvarrshetty/synapsera-neuromemory) | [Open App](https://synapsera-neuromemory-b9rojpoquhthbc3aajwihf.streamlit.app/) |
 
 ---
 
@@ -151,40 +150,17 @@ ModelMetrics demonstrates how changing a binary-classification threshold affects
 
 ---
 
-### 🧠 NeuroMemory
-
-**Explainable deep-learning prototype for brain MRI dementia-category classification.**
-
-NeuroMemory uses a PyTorch ResNet18 to classify 2D OASIS-derived brain MRI slices into three dataset categories: Non Demented, Very Mild Dementia and Mild Dementia. The deployed Streamlit app offers MRI upload, uncalibrated model scores and Grad-CAM attribution overlays.
-
-**Highlights:**
-
-- Trained and compared a custom CNN and transfer-learned ResNet18
-- Subject-disjoint training, validation and test partitions using available subject identifiers
-- Final held-out test: 52 subjects, 73.08% subject-level accuracy, 0.5965 macro-F1 and 69.44% balanced accuracy
-- Grad-CAM visual explanations of model predictions
-- PyTorch, torchvision and Streamlit deployment
-- Explicit documentation of class imbalance, limited subject counts and validation limitations
-
-> **Research and educational use only.** Not an Alzheimer's diagnostic tool or medical device. Moderate Dementia was excluded due to only two identified subjects; the Mild Dementia test category contained just three subjects. The reported held-out evaluation used the original FP32 checkpoint, while the live app uses an FP16-compressed copy not yet separately benchmarked across the complete test set.
-
-[Repository](https://github.com/apoorvarrshetty/synapsera-neuromemory) · [Live Demo](https://synapsera-neuromemory-b9rojpoquhthbc3aajwihf.streamlit.app/)
-
----
-
 ## Project categories
 
 ### Neuroscience and clinical education
 
 - EEG Insight
 - NeuroAtlas
-- NeuroMemory
 
 ### Machine learning and natural-language processing
 
 - NeuroMood Lens
 - ModelMetrics
-- NeuroMemory
 
 ### Signal processing
 
@@ -214,11 +190,6 @@ The individual projects use different combinations of:
 - Responsive CSS
 - GitHub Codespaces
 - Vercel
-- Python
-- PyTorch and torchvision
-- ResNet18
-- Grad-CAM
-- Streamlit
 
 Not every project uses every technology. See the individual project repositories for implementation-specific details.
 
@@ -233,8 +204,7 @@ SYNAPSERA
 ├── synapsera-neuromood-lens
 ├── synapsera-patternlab
 ├── synapsera-signalflow
-├── synapsera-modelmetrics
-└── synapsera-neuromemory
+└── synapsera-modelmetrics
 ```
 
 Each application is maintained as an independent repository so that it can have:
